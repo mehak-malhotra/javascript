@@ -13,11 +13,22 @@
 // question 2
 // applying discount on price of items
 
-let prices= [250, 645, 300, 900, 50];
-for(let i= 0; i<prices.length; i++){
-    prices[i]= 0.9*prices[i];
-}
+// let prices= [250, 645, 300, 900, 50];
+// for(let i= 0; i<prices.length; i++){
+//     prices[i]= 0.9*prices[i];
+// }
 
-for(let i=0; i<prices.length; i++){
-    console.log(prices[i]);
-}
+// for(let i=0; i<prices.length; i++){
+//     console.log(prices[i]);
+// }
+
+// question 3
+let companies= ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+companies.splice(0,1);
+console.log(companies);
+
+companies.splice(1, 1, "OLA");
+console.log(companies);
+
+companies.splice(companies.length, 0, "Amazon");
+console.log(companies);

@@ -1,0 +1,53 @@
+/* https://coolors.co/845a6d-3e1929-6e75a8-8d91c7-b0daf1 */
+
+body {
+   background-color: #B0DAF1;
+   text-align: center;
+ }
+ 
+ .container {
+   height: 70vh;
+   display: flex;
+ 
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .game {
+   height: 60vmin;
+   width: 70vmin;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 1.5vmin;
+ }
+
+.btn{
+   height: 20vmin;
+   width: 20vmin;
+   font-size: 30px;
+   background-color: #8D91C7;
+   color: black;
+}
+
+#reset{
+  margin-top: 10px;
+  height:7vmin;
+  width: 20vmin;
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+#new-game{
+  height:7vmin;
+  width: 20vmin;
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+#winner-text{
+  display:none;
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+}

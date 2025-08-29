@@ -1,0 +1,21 @@
+/* Set the primary font for the game */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Style for the alphabet buttons */
+.letter-btn {
+    transition: all 0.2s ease-in-out;
+}
+
+/* Style for disabled alphabet buttons after they are clicked */
+.letter-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: scale(0.95);
+}
+
+/* Ensures consistent width for both letters and underscore placeholders */
+.letter-placeholder {
+    min-width: 2rem; 
+}
